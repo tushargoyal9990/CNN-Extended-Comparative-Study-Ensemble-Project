@@ -1,5 +1,7 @@
 # COMPARATIVE STUDY & ENSEMBLE OF VARIOUS CONVOLUTIONAL NEURAL NETWORKS ON CIFAR-10
 
+(Note: This project is an extension of https://github.com/tushargoyal9990/CNN-Comparative-Study-Project)
+
 Abstract - Image classification plays an important role in the field of computer-vision and there has been extensive research to develop state-of-the-art neural networks. This paper aims to study some CNNs, inspired by some highly popular state-of-the-art CNNs, designed from scratch specifically for the Cifar-10 dataset and present a comparison between them. The paper also provides a new model based on ensembling of the models developed in the paper to classify Cifar-10 images.
 
 Keywords - Convolutional Neural Networks, Data Augmentation, Sequential Network, Residual Network, Squeeze Network, Depthwise Convolutional Network, Ensembling.
@@ -153,7 +155,7 @@ Figure 19: Confusion Matrix for (a) 4-Model Max Voting Ensemble; (b) 4-Model Wei
 In this paper, we evaluated the performance of various CNNs on augmented Cifar-10 dataset. We found that the data augmentation not necessarily reduce the overfitting significantly though minor improvement is visible. The ensemble technique can drastically improve the performance using many CNNs. The ensembling works better in case of weighted-average voting by providing larger weights to high accuracy models. Our work provides a direction to the researchers that neural networks have tremendous scope in generalization and learning of complex feature.
 
 ## References
-[1]	Tushar Goyal, “Comparative Study of Various Convolutional Neural Networks on Cifar-10”, International Journal for Modern Trends in Science and Technology, 6(12): 402-406, 2020.
+[1]	https://github.com/tushargoyal9990/CNN-Comparative-Study-Project
 
 [2]	Y. Abouelnaga, O. S. Ali, H. Rady and M. Moustafa, "CIFAR-10: KNN-Based Ensemble of Classifiers," 2016 International Conference on Computational Science and Computational Intelligence (CSCI), 2016, pp. 1192-1195, doi: 10.1109/CSCI.2016.0225.
 
